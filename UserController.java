@@ -16,7 +16,7 @@ public class UserController {
 		return "user/insert";
 	}
 
-	//회원수정 페이지로 이동
+	//회원수정 페이지로 이동 - master branch에 주석 추가
 	@RequestMapping("/user/update.do")
 	public String update() {
 		logger.info("경로 : update");
